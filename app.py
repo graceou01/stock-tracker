@@ -9,10 +9,10 @@ st.caption('上次更新時間：即時 (依照 Yahoo Finance)')
 # --- 1. 定義妳的投資組合 (這是妳的秘密帳本) ---
 # 邏輯挑戰：未來我們可以把這個寫在外部檔案，不用每次改程式碼
 portfolio = [
-    {"symbol": "2330.TW", "cost": 600, "shares": 2000},  # 台積電
-    {"symbol": "NVDA", "cost": 120, "shares": 50},       # 輝達
-    {"symbol": "TSLA", "cost": 250, "shares": 30},       # 特斯拉
-    {"symbol": "0050.TW", "cost": 130, "shares": 1000}   # 0050
+    {"symbol": "2330.TW", "cost": 600, "shares": 1},  # 台積電
+    {"symbol": "NVDA", "cost": 120, "shares": 1},       # 輝達
+    {"symbol": "TSLA", "cost": 250, "shares": 1},       # 特斯拉
+    {"symbol": "0050.TW", "cost": 130, "shares": 1}   # 0050
 ]
 
 # --- 2. 抓取股價的邏輯函數 ---
